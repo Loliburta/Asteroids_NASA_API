@@ -47,7 +47,7 @@ const Objects = () => {
       ) : (
         <div className="whole">
           <div className="title">
-            <div className="titl">Todays Asteroids</div>
+            <div className="titl">Today's Asteroids</div>
 
             <div className="title-date">{date}</div>
           </div>
