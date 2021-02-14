@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Strait&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-family: "Strait", sans-serif;
+}
+
+.whole-div {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 22px soild yellow;
+  width: 50%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.asteroid {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 21px;
+  line-height: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px solid red;
+  width: 50%;
+  margin-bottom: 20px;
+  font-family: "Titillium Web", sans-serif;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+.text {
+  text-align: left;
+  width: 60%;
+  padding-left: 20px;
+  border: 2px solid black;
+}
+
+.asteroid-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 10px solid white;
+}
+
+.asteroid-svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 3px solid red;
+  width: 150px;
+  color: wheat;
+  fill: white;
+}
+
+.name-div {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding-left: 10px;
+  font-size: 40px;
+  font-family: "Strait", sans-serif;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  margin-bottom: 5px;
+}
+
+.name-link {
+  background-color: transparent;
+  padding: 5px 10px 5px 10px;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  -webkit-transition: border 500ms, background-color 500ms;
+  transition: border 500ms, background-color 500ms;
+}
+
+.name-link:hover {
+  border: 3px solid rgba(97, 94, 85, 0.2);
+  border-radius: 4px;
+  background-color: rgba(97, 94, 85, 0.3);
+  -webkit-transition: border 500ms, background-color 500ms;
+  transition: border 500ms, background-color 500ms;
+}
+
+.loading-site {
+  background-image: radial-gradient(circle 2px at 71% 23%, #fffdb7 0%, transparent 26%), radial-gradient(circle 2px at 49% 33%, #fffdb7 0%, transparent 85%), radial-gradient(circle 2px at 100% 65%, #fffdb7 0%, transparent 62%), radial-gradient(circle 2px at 37% 5%, #fffdb7 0%, transparent 86%), radial-gradient(circle 7px at 7% 57%, rgba(255, 249, 27, 0.43) 0%, transparent 58%), radial-gradient(circle 7px at 89% 94%, rgba(255, 249, 27, 0.43) 0%, transparent 56%), radial-gradient(circle 4px at 64% 68%, rgba(255, 249, 27, 0.43) 0%, transparent 93%), radial-gradient(circle 4px at 100% 74%, rgba(255, 249, 27, 0.43) 0%, transparent 39%), radial-gradient(circle 4px at 60% 47%, rgba(255, 249, 27, 0.43) 0%, transparent 84%), radial-gradient(circle 4px at 89% 16%, rgba(255, 249, 27, 0.43) 0%, transparent 78%), -webkit-gradient(linear, left top, right top, from(#1b0303), color-stop(50%, #1b0303), color-stop(50%, #1b0303), to(#1b0303));
+  background-image: radial-gradient(circle 2px at 71% 23%, #fffdb7 0%, transparent 26%), radial-gradient(circle 2px at 49% 33%, #fffdb7 0%, transparent 85%), radial-gradient(circle 2px at 100% 65%, #fffdb7 0%, transparent 62%), radial-gradient(circle 2px at 37% 5%, #fffdb7 0%, transparent 86%), radial-gradient(circle 7px at 7% 57%, rgba(255, 249, 27, 0.43) 0%, transparent 58%), radial-gradient(circle 7px at 89% 94%, rgba(255, 249, 27, 0.43) 0%, transparent 56%), radial-gradient(circle 4px at 64% 68%, rgba(255, 249, 27, 0.43) 0%, transparent 93%), radial-gradient(circle 4px at 100% 74%, rgba(255, 249, 27, 0.43) 0%, transparent 39%), radial-gradient(circle 4px at 60% 47%, rgba(255, 249, 27, 0.43) 0%, transparent 84%), radial-gradient(circle 4px at 89% 16%, rgba(255, 249, 27, 0.43) 0%, transparent 78%), linear-gradient(90deg, #1b0303 0%, #1b0303 50%, #1b0303 50%, #1b0303 100%);
+  background-size: 350px 350px;
+  background-size: 350px 350px;
+  background-size: 278px 278px;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.whole {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-image: radial-gradient(circle 2px at 71% 23%, #fffdb7 0%, transparent 26%), radial-gradient(circle 2px at 49% 33%, #fffdb7 0%, transparent 85%), radial-gradient(circle 2px at 100% 65%, #fffdb7 0%, transparent 62%), radial-gradient(circle 2px at 37% 5%, #fffdb7 0%, transparent 86%), radial-gradient(circle 7px at 7% 57%, rgba(255, 249, 27, 0.43) 0%, transparent 58%), radial-gradient(circle 7px at 89% 94%, rgba(255, 249, 27, 0.43) 0%, transparent 56%), radial-gradient(circle 4px at 64% 68%, rgba(255, 249, 27, 0.43) 0%, transparent 93%), radial-gradient(circle 4px at 100% 74%, rgba(255, 249, 27, 0.43) 0%, transparent 39%), radial-gradient(circle 4px at 60% 47%, rgba(255, 249, 27, 0.43) 0%, transparent 84%), radial-gradient(circle 4px at 89% 16%, rgba(255, 249, 27, 0.43) 0%, transparent 78%), -webkit-gradient(linear, left top, right top, from(#1b0303), color-stop(50%, #1b0303), color-stop(50%, #1b0303), to(#1b0303));
+  background-image: radial-gradient(circle 2px at 71% 23%, #fffdb7 0%, transparent 26%), radial-gradient(circle 2px at 49% 33%, #fffdb7 0%, transparent 85%), radial-gradient(circle 2px at 100% 65%, #fffdb7 0%, transparent 62%), radial-gradient(circle 2px at 37% 5%, #fffdb7 0%, transparent 86%), radial-gradient(circle 7px at 7% 57%, rgba(255, 249, 27, 0.43) 0%, transparent 58%), radial-gradient(circle 7px at 89% 94%, rgba(255, 249, 27, 0.43) 0%, transparent 56%), radial-gradient(circle 4px at 64% 68%, rgba(255, 249, 27, 0.43) 0%, transparent 93%), radial-gradient(circle 4px at 100% 74%, rgba(255, 249, 27, 0.43) 0%, transparent 39%), radial-gradient(circle 4px at 60% 47%, rgba(255, 249, 27, 0.43) 0%, transparent 84%), radial-gradient(circle 4px at 89% 16%, rgba(255, 249, 27, 0.43) 0%, transparent 78%), linear-gradient(90deg, #1b0303 0%, #1b0303 50%, #1b0303 50%, #1b0303 100%);
+  background-size: 350px 350px;
+  background-size: 350px 350px;
+  background-size: 278px 278px;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
