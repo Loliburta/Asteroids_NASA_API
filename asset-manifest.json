@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Asteroids_NASA_API/static/css/main.21257724.chunk.css",
+    "main.js": "/Asteroids_NASA_API/static/js/main.1b1c636b.chunk.js",
+    "main.js.map": "/Asteroids_NASA_API/static/js/main.1b1c636b.chunk.js.map",
+    "runtime-main.js": "/Asteroids_NASA_API/static/js/runtime-main.7e733d2c.js",
+    "runtime-main.js.map": "/Asteroids_NASA_API/static/js/runtime-main.7e733d2c.js.map",
+    "static/js/2.089a021d.chunk.js": "/Asteroids_NASA_API/static/js/2.089a021d.chunk.js",
+    "static/js/2.089a021d.chunk.js.map": "/Asteroids_NASA_API/static/js/2.089a021d.chunk.js.map",
+    "index.html": "/Asteroids_NASA_API/index.html",
+    "static/css/main.21257724.chunk.css.map": "/Asteroids_NASA_API/static/css/main.21257724.chunk.css.map",
+    "static/js/2.089a021d.chunk.js.LICENSE.txt": "/Asteroids_NASA_API/static/js/2.089a021d.chunk.js.LICENSE.txt",
+    "static/media/m0.fdda55c2.svg": "/Asteroids_NASA_API/static/media/m0.fdda55c2.svg",
+    "static/media/m1.837cd59e.svg": "/Asteroids_NASA_API/static/media/m1.837cd59e.svg",
+    "static/media/m2.15006e9c.svg": "/Asteroids_NASA_API/static/media/m2.15006e9c.svg",
+    "static/media/m3.fd4572cc.svg": "/Asteroids_NASA_API/static/media/m3.fd4572cc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e733d2c.js",
+    "static/js/2.089a021d.chunk.js",
+    "static/css/main.21257724.chunk.css",
+    "static/js/main.1b1c636b.chunk.js"
+  ]
+}
