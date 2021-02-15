@@ -124,7 +124,7 @@ const Objects = () => {
               );
             })
           ) : (
-            <h2>no</h2>
+            <h2>No Data</h2>
           )}
         </div>
       )}
