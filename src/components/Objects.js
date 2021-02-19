@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
-import { ReactComponent as M0 } from "../svgs/m0.svg";
-import { ReactComponent as M1 } from "../svgs/m1.svg";
-import { ReactComponent as M2 } from "../svgs/m2.svg";
-import { ReactComponent as M3 } from "../svgs/m3.svg";
+import { ChooseSvg } from "./ChooseSvg";
 const apiKey = process.env.REACT_APP_NASA_KEY;
 
 const Objects = () => {
@@ -11,18 +8,6 @@ const Objects = () => {
   const [loading, setLoading] = useState(true);
   let date = new Date().toJSON().slice(0, 10).replace(/-/g, "-");
 
-  const ChooseSvg = (size) => {
-    if (typeof size !== "number") return "";
-    if (size < 50) {
-      return <M3 className="asteroid-svg" />;
-    } else if (size > 50 && size < 100) {
-      return <M1 className="asteroid-svg" />;
-    } else if (size > 100 && size < 150) {
-      return <M0 className="asteroid-svg" />;
-    } else {
-      return <M2 className="asteroid-svg" />;
-    }
-  };
 
   useEffect(() => {
     fetch(
@@ -31,9 +16,6 @@ const Objects = () => {
       .then((res) => res.json())
       .then((result) => {
         setObjectsInfo(result.near_earth_objects[date]);
-        console.log(result);
-        console.log(result.near_earth_objects);
-        console.log(result.near_earth_objects[date]);
         setLoading(false);
       });
   }, []);
@@ -124,7 +106,7 @@ const Objects = () => {
               );
             })
           ) : (
-            <h2>No Data</h2>
+            <h2>No Data Fetched</h2>
           )}
         </div>
       )}
